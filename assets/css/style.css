@@ -1,0 +1,247 @@
+/* FONT MONTSERRAT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --transition: all 400ms ease;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    line-height: 1.7;
+}
+
+html{
+    scroll-behavior: smooth;
+    user-select: none;
+}
+/* 
+a{
+    color: white;
+} */
+
+h1,h2,h3,h4,h5,p{
+    color: #1d1d1f;
+}
+
+nav a{
+    color: rgba(255, 255, 255, 0.616);
+    transition: var(--transition);
+}
+
+nav a:hover{
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-container{
+    width: 100%;
+    padding:0 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.7rem;
+    background: rgba(0, 0, 0, 0.8)
+}
+
+.nav-menu{
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-link a{
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+/* ------------------------------====== - HOME - ====== ------------------------------ */
+
+.banner{
+    width: 80%;
+    height: 2rem;
+    margin: 0 auto;
+    background: #fdfdfd;
+    color: #1d1d1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner p{
+    font-size: 0.8rem;
+}
+
+.banner p span,
+.container p span{
+    color: #06c;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.banner p span:hover,
+.container p span:hover{
+    text-decoration: underline;
+}
+
+section h1{
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 600;
+    
+}
+
+.hero{
+    height: 100vh;
+    margin-bottom: 2rem;
+}
+
+.hero h3{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 400;
+    line-height: 0;
+}
+
+.products-container{
+    width: 98%;
+    margin: 0 auto;
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+
+.product{
+    background-color: aquamarine;
+    color: white;
+    height: 30rem;
+    text-align: center;
+    padding: 3rem;
+    
+}
+
+.product h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+    line-height: 1;
+}
+
+.product h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+    line-height: 1.5;
+}
+
+.p-1{
+    background-image: url(../images/image4.jpg);
+}
+
+.p-1 h2{
+    line-height: 1;
+}
+
+.p-1 .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-1 .icon img{
+    width: 2.5rem;
+    aspect-ratio: 1/1;
+}
+
+.p-2 img{
+    height: 2rem;
+}
+
+/* .p-3{
+    background-color: white;
+} */
+
+.p-3 img,
+.p-4 img{
+    width: 10rem;
+}
+
+footer{
+    margin-top: 2rem;
+    background: #f5f5f7;
+}
+
+.footnotes{
+    padding-top: 0.5rem;
+}
+
+footer p{
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 1rem;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 1rem 0;
+    margin-top: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.footer-container h5{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.permalink .link a{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 0.7rem;
+    font-weight: 500;
+    
+}
+
+.copyright{
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright p{
+    margin: 0;
+}
+
+.copyright ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.copyright ul li a{
+    margin: 0 0.5rem;
+    padding-right: 0.5rem;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 0.7rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.copyright ul li a:nth-child(5){
+    border-right: 0px solid lightblue;
+}
+
+
