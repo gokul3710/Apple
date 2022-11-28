@@ -411,14 +411,14 @@ footer p{
 
 .copyright ul li a{
     margin: 0 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 1rem;
     color: rgba(0, 0, 0, 0.7);
     font-size: 0.7rem;
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.copyright ul li a:nth-child(5){
-    border-right: 0px solid lightblue;
+.copyright ul li a.first{
+    border-left: 0 none !important;
 }
 
 
